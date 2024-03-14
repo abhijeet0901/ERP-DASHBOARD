@@ -59,15 +59,22 @@ Optionally, use the Orders Calendar View to visualize orders on their expected d
 
 
 ## Screenshots
-![Screenshot 2024-03-14 153929](https://github.com/abhijeet0901/ERP-DASHBOARD/assets/110217625/d170d75b-0728-4dda-a9a7-22a893171812)
-![Screenshot 2024-03-14 153914](https://github.com/abhijeet0901/ERP-DASHBOARD/assets/110217625/16089d94-6d67-4f36-8e9c-31b6a80ccabf)
-![Screenshot 2024-03-14 140552](https://github.com/abhijeet0901/ERP-DASHBOARD/assets/110217625/27c66f9b-7801-487c-84c5-a01d054b4234)
-![Screenshot 2024-03-14 140607](https://github.com/abhijeet0901/ERP-DASHBOARD/assets/110217625/b894742c-860b-4f14-b73c-c65c61c59362)
-![Screenshot 2024-03-14 153809](https://github.com/abhijeet0901/ERP-DASHBOARD/assets/110217625/e7e60d78-db1e-4391-a132-d2977526ab5f)
-![Screenshot 2024-03-14 140643](https://github.com/abhijeet0901/ERP-DASHBOARD/assets/110217625/0cf5dcfe-5997-446a-9c3a-f51135c6eed6)
-![Screenshot 2024-03-14 140706](https://github.com/abhijeet0901/ERP-DASHBOARD/assets/110217625/d7936f1e-b80c-4802-8c32-393f23186f35)
-![Screenshot 2024-03-14 140756](https://github.com/abhijeet0901/ERP-DASHBOARD/assets/110217625/cf48bc38-0c47-450d-b277-79f682595c73)
-![Screenshot 2024-03-14 140731](https://github.com/abhijeet0901/ERP-DASHBOARD/assets/110217625/ed9aebe4-ce76-4c8e-a937-39acafdb4738)
+![Screenshot 2024-03-14 153914](https://github.com/abhijeet0901/ERP-DASHBOARD/assets/110217625/792f9552-e1c3-430e-bd94-4260d54d77d6)
+![Screenshot 2024-03-14 153929](https://github.com/abhijeet0901/ERP-DASHBOARD/assets/110217625/d027e5a2-e7e9-40bc-b6cd-25945951c186)
+![Screenshot 2024-03-15 001156](https://github.com/abhijeet0901/ERP-DASHBOARD/assets/110217625/6a7b0d81-d7df-474c-a578-aa290ad20c43)
+![Screenshot 2024-03-15 001542](https://github.com/abhijeet0901/ERP-DASHBOARD/assets/110217625/6220156f-1575-47ee-9256-cb167de0b21f)
+![Screenshot 2024-03-15 001520](https://github.com/abhijeet0901/ERP-DASHBOARD/assets/110217625/50a0f9cc-b556-4367-aaa3-52b7c87616f6)
+![Screenshot 2024-03-15 002127](https://github.com/abhijeet0901/ERP-DASHBOARD/assets/110217625/d8a03f48-416f-42d7-8191-e7e93ead1ec4)
+![Screenshot 2024-03-15 002139](https://github.com/abhijeet0901/ERP-DASHBOARD/assets/110217625/5d679de3-a11f-4251-84c1-a28508953c9f)
+![Screenshot 2024-03-15 002152](https://github.com/abhijeet0901/ERP-DASHBOARD/assets/110217625/ca35b838-0104-41f2-9188-1938449575bc)
+![Screenshot 2024-03-15 002225](https://github.com/abhijeet0901/ERP-DASHBOARD/assets/110217625/90cc75aa-a50d-41fd-9b06-e30158313061)
+
+
+
+
+
+
+
 
 
 
