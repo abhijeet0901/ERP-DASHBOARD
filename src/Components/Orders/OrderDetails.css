@@ -1,0 +1,19 @@
+.order-details-container {
+  margin: 20px;
+}
+
+.order-details-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.order-details-table td {
+  border: 1px solid #dddddd;
+  padding: 10px;
+}
+
+.order-details-table .detail-label {
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
