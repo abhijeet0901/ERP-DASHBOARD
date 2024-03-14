@@ -77,13 +77,14 @@ function Home() {
           <div className="card">
             <div className="card-inner">
               <h3>PRODUCTS</h3>
-              <BsFillArchiveFill className="card_icon white-icon" />
+              <BsFillArchiveFill className="card_icon" />
             </div>
             <h1>5</h1>
+            <div className="shine"></div>
           </div>
         </Link>
         <Link to="/orders">
-          <div className="card" style={{ backgroundColor: "orange" }}>
+          <div className="card">
             <div className="card-inner">
               <h3>ORDERS</h3>
               <BsFillGrid3X3GapFill className="card_icon" />

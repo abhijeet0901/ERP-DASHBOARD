@@ -10,7 +10,7 @@ h1,
 h2,
 h3 {
   font-family: "Montserrat";
-  color: black;
+  /* color: black; */
 }
 
 .icon {
@@ -64,7 +64,7 @@ h3 {
   grid-area: main;
   overflow-y: auto;
   padding: 20px 20px;
-  color: rgba(255, 255, 255, 1);
+  /* color: rgba(255, 255, 255, 1); */
 }
 
 .main-title {
@@ -72,7 +72,14 @@ h3 {
   display: flex;
   justify-content: space-between;
 }
-
+.main-cards > a {
+  /* color: white; */
+  text-decoration: none;
+}
+.main-cards > a:hover {
+  color: black;
+  text-decoration: none;
+}
 .main-cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -87,9 +94,36 @@ h3 {
   padding: 8px 15px;
   color: white;
   border-radius: 5px;
+  background-image: linear-gradient(to left, #fff, #ffff);
+  border: 2px solid #02001a;
+  color: black;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+.card:hover {
+  background-image: linear-gradient(
+    to right top,
+    #05021d,
+    #0a0829,
+    #0b0e36,
+    #0d1142,
+    #12134f,
+    #12134f,
+    #11134e,
+    #11134e,
+    #0c1141,
+    #0a0d33,
+    #090726,
+    #02001a
+  );
+  color: white;
+  transform: scale(1.05);
+}
+.card-inner:hover {
+  color: "black";
 }
 
-.card:first-child {
+/* .card:first-child {
   background-color: #2962ff;
   text-decoration: none;
 }
@@ -104,12 +138,13 @@ h3 {
 
 .card:nth-child(4) {
   background-color: #d50000;
-}
+} */
 
 .card-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* color: white; */
 }
 
 .card-inner > .card_icon {

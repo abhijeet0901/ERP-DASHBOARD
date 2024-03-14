@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import {
-  FaCaretLeft,
-  FaCaretRight,
-  FaUserShield,
-} from "react-icons/fa";
+import { FaCaretLeft, FaCaretRight, FaUserShield } from "react-icons/fa";
 import "./Sidebar.css";
 import {
   BsGrid1X2Fill,
@@ -30,53 +26,53 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
         <div className="sidebar-brand">
           <FaUserShield className="icon_header" /> Admin
         </div>
-      
+
         <button className="collapse-button" onClick={handleCollapse}>
           <FaCaretLeft className="collapse" size={24} />
         </button>
-      
+
         <span className="icon close_icon" onClick={OpenSidebar}>
           X
         </span>
       </div>
 
       <ul className="sidebar-list">
-        <li className="sidebar-list-item">
-          <Link to="/" className="sidebar-link">
+        <Link to="/" className="sidebar-link">
+          <li className="sidebar-list-item">
             <BsGrid1X2Fill className="icon" /> Dashboard
-          </Link>
-        </li>
-        <li className="sidebar-list-item">
-          <Link to="/products" className="sidebar-link">
+          </li>
+        </Link>
+        <Link to="/products" className="sidebar-link">
+          <li className="sidebar-list-item">
             <BsFillArchiveFill className="icon" /> Products
-          </Link>
-        </li>
-        <li className="sidebar-list-item">
-          <Link to="/orders" className="sidebar-link">
+          </li>
+        </Link>
+        <Link to="/orders" className="sidebar-link">
+          <li className="sidebar-list-item">
             <BsFillGrid3X3GapFill className="icon" />
             Orders
-          </Link>
-        </li>
-        <li className="sidebar-list-item">
-          <Link to="/calendar" className="sidebar-link">
+          </li>
+        </Link>
+        <Link to="/calendar" className="sidebar-link">
+          <li className="sidebar-list-item">
             <BsCalendarFill className="icon" /> Calendar
-          </Link>
-        </li>
-        <li className="sidebar-list-item">
-          <Link to="/inventory" className="sidebar-link">
+          </li>
+        </Link>
+        <Link to="/inventory" className="sidebar-link">
+          <li className="sidebar-list-item">
             <BsListCheck className="icon" /> Inventory
-          </Link>
-        </li>
-        <li className="sidebar-list-item">
-          <Link to="/reports" className="sidebar-link">
+          </li>
+        </Link>
+        <Link to="/reports" className="sidebar-link">
+          <li className="sidebar-list-item">
             <BsMenuButtonWideFill className="icon" /> Reports
-          </Link>
-        </li>
-        <li className="sidebar-list-item">
-          <Link to="/settings" className="sidebar-link">
+          </li>
+        </Link>
+        <Link to="/settings" className="sidebar-link">
+          <li className="sidebar-list-item">
             <BsFillGearFill className="icon" /> Setting
-          </Link>
-        </li>
+          </li>
+        </Link>
       </ul>
     </aside>
   ) : (
@@ -95,41 +91,41 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
       </div>
 
       <ul className="sidebar-list">
-        <li className="sidebar-list-item">
-          <Link to="/" className="sidebar-link">
+        <Link to="/" className="sidebar-link">
+          <li className="sidebar-list-item">
             <BsGrid1X2Fill className="icon" />
-          </Link>
-        </li>
-        <li className="sidebar-list-item">
-          <Link to="/products" className="sidebar-link">
+          </li>
+        </Link>
+        <Link to="/products" className="sidebar-link">
+          <li className="sidebar-list-item">
             <BsFillArchiveFill className="icon" />
-          </Link>
-        </li>
-        <li className="sidebar-list-item">
-          <Link to="/orders" className="sidebar-link">
+          </li>
+        </Link>
+        <Link to="/orders" className="sidebar-link">
+          <li className="sidebar-list-item">
             <BsFillGrid3X3GapFill className="icon" />
-          </Link>
-        </li>
-        <li className="sidebar-list-item">
-          <Link to="/calendar" className="sidebar-link">
+          </li>
+        </Link>
+        <Link to="/calendar" className="sidebar-link">
+          <li className="sidebar-list-item">
             <BsCalendarFill className="icon" />
-          </Link>
-        </li>
-        <li className="sidebar-list-item">
-          <Link to="/inventory" className="sidebar-link">
+          </li>
+        </Link>
+        <Link to="/inventory" className="sidebar-link">
+          <li className="sidebar-list-item">
             <BsListCheck className="icon" />
-          </Link>
-        </li>
-        <li className="sidebar-list-item">
-          <Link to="/reports" className="sidebar-link">
+          </li>
+        </Link>
+        <Link to="/reports" className="sidebar-link">
+          <li className="sidebar-list-item">
             <BsMenuButtonWideFill className="icon" />
-          </Link>
-        </li>
-        <li className="sidebar-list-item">
-          <Link to="/settings" className="sidebar-link">
+          </li>
+        </Link>
+        <Link to="/settings" className="sidebar-link">
+          <li className="sidebar-list-item">
             <BsFillGearFill className="icon" />
-          </Link>
-        </li>
+          </li>
+        </Link>
       </ul>
     </aside>
   );
