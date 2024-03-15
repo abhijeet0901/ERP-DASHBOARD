@@ -123,23 +123,6 @@ h3 {
   color: "black";
 }
 
-/* .card:first-child {
-  background-color: #2962ff;
-  text-decoration: none;
-}
-
-.card:nth-child(2) {
-  background-color: #ff6d00;
-}
-
-.card:nth-child(3) {
-  background-color: #2e7d32;
-}
-
-.card:nth-child(4) {
-  background-color: #d50000;
-} */
-
 .card-inner {
   display: flex;
   align-items: center;
